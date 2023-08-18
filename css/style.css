@@ -1,0 +1,132 @@
+/* global */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+/* header */
+header {
+  background-image: url("../imgs/events-heavenly-header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(230, 130, 133, 0.6);
+}
+header h1 {
+  font-size: 4rem;
+}
+.link-group .links {
+  width: 250px;
+  padding: 30px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.link-group .links i {
+  right: 40px;
+  top: 40px;
+  cursor: pointer;
+}
+.links-icon {
+  left: 25px;
+  cursor: pointer;
+}
+/* singers */
+.singers {
+  margin: 50px 0;
+  padding: 50px;
+}
+.singers h3 {
+  cursor: pointer;
+  color: white;
+  margin: 10px auto 0;
+  text-align: center;
+  width: 60%;
+  padding: 20px 50px;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.singers p {
+  width: 60%;
+  background: rgba(214, 46, 51, 0.3);
+  padding: 20px 50px;
+  margin: auto;
+  text-align: center;
+}
+.singers .display-none {
+  display: none;
+}
+/* count down */
+.count-down {
+  background-image: url("../imgs/invitation-2508607__340.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin: 50px 0;
+}
+.count-down::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(230, 130, 133, 0.6);
+}
+.count-down .day,
+.count-down .hour,
+.count-down .minutes,
+.count-down .seconds {
+  border: 1px solid white;
+  padding: 50px;
+  margin: 50px 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* contact */
+.contact {
+  margin: 50px 0;
+  padding: 50px;
+}
+.contact .social a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.contact .social a:hover {
+  background-color: rgba(214, 46, 51, 0.6);
+  border-color: rgba(214, 46, 51, 0.6) !important;
+  color: white !important;
+}
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+}
+.contact form p span {
+  color: rgba(214, 46, 51, 0.6);
+}
+.contact form button {
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+.contact form button:hover {
+  color: white;
+  background-color: rgba(214, 46, 51, 0.6);
+}
